@@ -62,13 +62,13 @@ happyBithdayWithCallback(4, 1, 2007, sendBithdaymessage);
 // #Task4
 
 const ageCalc = (year) => {
-  let number = parseInt(year / 100);
-  if (year % 100 > 0) number++;
+  let century = parseInt(year / 100);
+  if (year % 100 > 0) century++;
 
-  return console.log(number + " століття");
+  return console.log(century + " століття");
 };
 
-ageCalc(1601);
+ageCalc(2023);
 
 
 // #Task5
